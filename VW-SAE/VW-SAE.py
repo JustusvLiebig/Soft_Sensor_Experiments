@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import scipy.stats
 pd.set_option('display.max_columns', None)
 """
-质量监督堆叠自编码器的代码
+分变量加权-堆叠自编码器的代码
 """
 # 数据集定义方式
 class MyDataset(Dataset):
@@ -139,9 +139,6 @@ def pretraing_loss(estimate, target, corr, device):
 
     # 转为对角矩阵放上torch里面
     delta = np.diag(weight)
-    # print('对角矩阵')
-    # print(delta)
-    # print(delta.shape)
 
     # 放进torch里面
     delta = torch.from_numpy(delta)
@@ -149,8 +146,6 @@ def pretraing_loss(estimate, target, corr, device):
 
     if device is not 'cpu':
         delta = delta.cuda()
-
-    # print(delta.dtype)
 
     # 计算误差
     error = target - estimate
