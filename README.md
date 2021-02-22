@@ -34,4 +34,4 @@ No reprobaiction without permission. Please indicate the source if authorized.
 
 ## Special Annuouncement
 The data proposed in this repo is downloaded via this [link](https://www.springer.com/gp/book/9781846284793). No confidential data is involved!    
-本仓库的数据是通过以下[链接](https://www.springer.com/gp/book/9781846284793)下载得到。不涉及任何保密数据!
+本仓库的数据是通过此[链接](https://www.springer.com/gp/book/9781846284793)下载得到。不涉及任何保密数据!
