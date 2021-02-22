@@ -10,6 +10,11 @@ This file is a pytorch realization of this papaer:
 
 [Deep Learning-Based Feature Representation and Its Application for Soft Sensor Modeling With Variable-Wise Weighted SAE](https://ieeexplore.ieee.org/abstract/document/8302941)
 
+## T-SAE
+This file is a pytorch realization of this papaer:
+
+[Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)
+
 ## Contact Me  
 12032042@zju.edu.cn
 
