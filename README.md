@@ -1,4 +1,4 @@
-# Soft_Sensor_Experiments
+# Soft Sensor Experiments
 The code of Soft Sensor Experiments
 ## Stacked Auto Encoder 
 This file is a pytorch realization of this papaer:
