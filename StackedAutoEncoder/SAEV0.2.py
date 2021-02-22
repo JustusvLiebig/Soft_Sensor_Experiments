@@ -113,7 +113,7 @@ def trainAE(model, trainloader, epochs, trainlayer, lr):
             loss.backward()
             optimizer.step()
             sum_loss += loss.detach().item()
-        print('无监督预训练第{}层的第{}个epoch:'.format(trainlayer+1, j + 1), ',其Loss的大小是:{}'.format(loss.data.cpu().numpy()))
+        print('无监督预训练第{}层的第{}个epoch,'.format(trainlayer+1, j + 1), ',其Loss的大小是:{}'.format(loss.data.cpu().numpy()))
 
     return model
 
@@ -208,9 +208,12 @@ x_new = np.zeros([2390, 13])
 x_6 = x_temp[:, 4]
 x_9 = (x_temp[:, 5] + x_temp[:, 6])/2
 x_new[:, :5] = x_temp[4: 2394, :5]
-x_new[:, 6] = x_6[3: 2393]
-x_new[:, 7] = x_6[2: 2392]
+
+x_new[:, 5] = x_6[3: 2393]
+x_new[:, 6] = x_6[2: 2392]
+x_new[:, 7] = x_6[1: 2391]
 x_new[:, 8] = x_9[4: 2394]
+
 x_new[:, 9] = y_temp[3: 2393]
 x_new[:, 10] = y_temp[2: 2392]
 x_new[:, 11] = y_temp[1:2391]
@@ -219,8 +222,7 @@ y_new = y_temp[4: 2394]
 y_new = y_new.reshape([-1, 1])
 
 #划分数据集
-x_new = torch.from_numpy(x_new).float()
-y_new = torch.from_numpy(y_new).float()
+
 train_x = x_new[:1000, :]
 train_y = y_new[:1000]
 
@@ -241,21 +243,21 @@ output_test = mdl.predict(test_x)
 # 训练集画图
 plt.figure()
 plt.plot(range(len(output_train)), output_train, color='b', label='y_trainpre')
-plt.plot(range(len(output_train)), train_y.data.numpy(), color='r', label='y_true')
+plt.plot(range(len(output_train)), train_y, color='r', label='y_true')
 plt.legend()
 plt.show()
-train_rmse = np.sqrt(mean_squared_error(output_train, train_y.data.numpy()))
-train_r2 = r2_score(output_train, train_y.data.numpy())
+train_rmse = np.sqrt(mean_squared_error(output_train, train_y))
+train_r2 = r2_score(output_train, train_y)
 print('train_rmse = ' + str(round(train_rmse, 5)))
 print('r2 = ', str(train_r2))
 
 # 测试集画图
 plt.figure()
 plt.plot(range(len(output_test)), output_test, color='b', label='y_testpre')
-plt.plot(range(len(output_test)), test_y.data.numpy(), color='r', label='y_true')
+plt.plot(range(len(output_test)), test_y, color='r', label='y_true')
 plt.legend()
 plt.show()
-test_rmse = np.sqrt(mean_squared_error(output_test, test_y.data.numpy()))
-test_r2 = r2_score(output_test, test_y.data.numpy())
+test_rmse = np.sqrt(mean_squared_error(output_test, test_y))
+test_r2 = r2_score(output_test, test_y)
 print('test_rmse = ' + str(round(test_rmse, 5)))
 print('r2 = ', str(test_r2))
