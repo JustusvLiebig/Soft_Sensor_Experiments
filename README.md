@@ -15,6 +15,11 @@ This file is a pytorch realization of this papaer (part):
 
 [Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)
 
+## GSTAE
+This file is a pytorch realization of this papaer (part):
+
+[Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)
+
 ## Contact Me  
 Justus  
 12032042@zju.edu.cn
