@@ -18,9 +18,9 @@ This file is a pytorch realization of this papaer (part):
 ## Contact Me  
 12032042@zju.edu.cn
 
-## Copyright
+## Notice
 Please cite the corresponding paper if the code shown aboved is used in your research.  
-如果在您的研究中使用了上述代码，请引用对应的参考文献。
+如果在您的研究中使用了上述代码，请引用对应的论文。
 
 ## Copyright
 No reprobaiction without permission. Please indicate the source if authorized.  
