@@ -7,8 +7,8 @@
 ## 测试集性能评估
  软测量模型  | RMSE  | R2
  ----- | ----- | ------  
- VW-SAE  | 0.03571 | 0.00467
- SS-SAE  | 0.04648 | 0.00565  
+ VW-SAE  | 0.03571 | 0.9585
+ SS-SAE  | 0.04648 | 0.9206  
  
  ## 参考文献
  [Deep learning-based feature representation and its application for soft sensor modeling with variable-wise weighted SAE](https://ieeexplore.ieee.org/abstract/document/8302941)   
