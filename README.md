@@ -8,3 +8,6 @@ This file is a pytorch realization of this papaer:
 This file is a pytorch realization of this papaer:
 
 [Deep Learning-Based Feature Representation and Its Application for Soft Sensor Modeling With Variable-Wise Weighted SAE](https://ieeexplore.ieee.org/abstract/document/8302941)
+
+## E-mail  
+12032042@zju.edu.cn
