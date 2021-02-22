@@ -31,3 +31,7 @@ Please cite the corresponding paper if the code shown aboved is used in your res
 ## Copyright
 No reprobaiction without permission. Please indicate the source if authorized.  
 未经许可, 严禁转载。 转载请说明出处。
+
+## Special Annuouncement
+The data proposed in this repo is downloaded via this [link](https://www.springer.com/gp/book/9781846284793). No confidential data is involved!    
+本仓库的数据是通过以下[链接](https://www.springer.com/gp/book/9781846284793)下载得到。不涉及任何保密数据!
