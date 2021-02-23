@@ -7,8 +7,8 @@
 ## 测试集性能评估
  软测量模型  | RMSE  | R2
  ----- | ----- | ------  
- T-SAE  | 0.03571 | 0.9518
- GS-TAE  | 0.03046 | 0.9688  
+ T-SAE  | 0.0357 | 0.9518
+ GS-TAE  | 0.0299 | 0.9704 
  
  ## 参考文献
  * [Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659/)   
