@@ -11,4 +11,5 @@
  GS-TAE  | 0.03046 | 0.9688  
  
  ## 参考文献
- [Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659/)   
+ * [Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659/)   
+ * [基于自编码器的工业过程软测量建模方法研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1020072123.nh&v=vKAO1sAGlT%25mmd2BXXYkTwEe9uA%25mmd2FMEJVIsmY3qw1RpN7gFo%25mmd2BHmX3oM%25mmd2BuvG8UlyI42Bp4r)
