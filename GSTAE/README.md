@@ -1,4 +1,4 @@
-# Gate Stacked Target-Related Stacked Auto Encoder
+# Gate Stacked Target-Related Auto Encoder
 ## T-SAE
 在与训练的过程中,加入标签数据,将无监督预训练转化为有监督预训练问题。其中引入的超参数λ需要自行调整
 ## GS-TAE
