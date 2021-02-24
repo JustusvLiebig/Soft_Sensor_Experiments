@@ -22,7 +22,7 @@ This file is a pytorch realization of this papaer (part):
 
 ## Contact Me  
 Justus  
-12032042@zju.edu.cn
+12032042@zju.edu.cn or chenzhch7@mail3.sysu.edu.cn
 
 ## Notice
 Please cite the corresponding paper if the code shown aboved is used in your research.  
