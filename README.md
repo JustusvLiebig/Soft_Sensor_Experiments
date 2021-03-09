@@ -20,6 +20,11 @@ This file is a pytorch realization of this papaer (part):
 
 [Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)
 
+## SLSTM
+This file is a pytorch realization of this papaer:
+
+[Nonlinear Dynamic Soft Sensor Modeling With Supervised Long Short-Term Memory Network](https://ieeexplore.ieee.org/abstract/document/8654687)
+
 ## Contact Me  
 Justus  
 12032042@zju.edu.cn  
