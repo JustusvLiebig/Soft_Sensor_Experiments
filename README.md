@@ -36,8 +36,8 @@ Please cite the corresponding paper if the code shown aboved is used in your res
 如果在您的研究中使用了上述代码，请引用对应的论文。
 
 ## Copyright
-**No reprobaiction without permission. Please indicate the source if authorized.**  
-**未经许可, 严禁转载。 转载请说明出处。**
+**No reprobaiction without permission/ secondary creation(for research). Please indicate the source if authorized.**  
+**未经许可, 严禁转载/二次创作(科研用途)。 转载请说明出处。**
 
 ## Special Annuouncement
 **The data proposed in this repo is downloaded via this [link](https://www.springer.com/gp/book/9781846284793). No confidential data is involved!**    
