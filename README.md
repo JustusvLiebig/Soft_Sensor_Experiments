@@ -25,6 +25,11 @@ This file is a pytorch realization of this papaer:
 
 [Nonlinear Dynamic Soft Sensor Modeling With Supervised Long Short-Term Memory Network](https://ieeexplore.ieee.org/abstract/document/8654687)
 
+## SIAE
+This file is a pytorch realization of this papaer:
+
+[Stacked isomorphic autoencoder based soft analyzer and its application to sulfur recovery unit](https://doi.org/10.1016/j.ins.2020.03.018)  
+
 ## Contact Me  
 Justus  
 12032042@zju.edu.cn  
