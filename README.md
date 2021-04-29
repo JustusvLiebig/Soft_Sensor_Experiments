@@ -31,6 +31,11 @@ This file is a pytorch realization of this papaer:
 
 [Stacked isomorphic autoencoder based soft analyzer and its application to sulfur recovery unit](https://doi.org/10.1016/j.ins.2020.03.018)  
 
+## VA-LSTM
+This file is a pytorch realization of this papaer:
+
+[Deep learning for quality prediction of nonlinear dynamic processes with variable attention-based long short-term memory network](https://doi.org/10.1002/cjce.23665)
+
 ## Contact Me  
 Justus  
 12032042@zju.edu.cn  
