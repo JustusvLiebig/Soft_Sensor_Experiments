@@ -3,44 +3,44 @@ The code of Soft Sensor Experiments
 ## Stacked Auto Encoder 
 This file is a pytorch realization of this papaer:
 
-[A novel semi-supervised pre-training strategy for deep networks and its application for quality variable prediction in industrial processes](https://www.sciencedirect.com/science/article/pii/S0009250920300415#!)
+* [A novel semi-supervised pre-training strategy for deep networks and its application for quality variable prediction in industrial processes](https://www.sciencedirect.com/science/article/pii/S0009250920300415#!)
 
 ## VW-SAE
 This file is a pytorch realization of this papaer:
 
-[Deep Learning-Based Feature Representation and Its Application for Soft Sensor Modeling With Variable-Wise Weighted SAE](https://ieeexplore.ieee.org/abstract/document/8302941)
+* [Deep Learning-Based Feature Representation and Its Application for Soft Sensor Modeling With Variable-Wise Weighted SAE](https://ieeexplore.ieee.org/abstract/document/8302941)
 
 ## T-SAE(also known as SQAE)
 This file is a pytorch realization of this papaer (part):
 
-[Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)  
-[Hierarchical Quality-Relevant Feature Representation for Soft Sensor Modeling: A Novel Deep Learning Strategy](https://ieeexplore.ieee.org/abstract/document/8822746)
+* [Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)  
+* [Hierarchical Quality-Relevant Feature Representation for Soft Sensor Modeling: A Novel Deep Learning Strategy](https://ieeexplore.ieee.org/abstract/document/8822746)
 
 ## GSTAE
 This file is a pytorch realization of this papaer (part):
 
-[Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)
+* [Gated Stacked Target-Related Autoencoder: A Novel Deep Feature Extraction and Layerwise Ensemble Method for Industrial Soft Sensor Application](https://ieeexplore.ieee.org/abstract/document/9174659)
 
 ## SLSTM
 This file is a pytorch realization of this papaer:
 
-[Nonlinear Dynamic Soft Sensor Modeling With Supervised Long Short-Term Memory Network](https://ieeexplore.ieee.org/abstract/document/8654687)
+* [Nonlinear Dynamic Soft Sensor Modeling With Supervised Long Short-Term Memory Network](https://ieeexplore.ieee.org/abstract/document/8654687)
 
 ## SIAE
 This file is a pytorch realization of this papaer:
 
-[Stacked isomorphic autoencoder based soft analyzer and its application to sulfur recovery unit](https://doi.org/10.1016/j.ins.2020.03.018)  
+* [Stacked isomorphic autoencoder based soft analyzer and its application to sulfur recovery unit](https://doi.org/10.1016/j.ins.2020.03.018)  
 
 ## VA-LSTM
 This file is a pytorch realization of this papaer:
 
-[Deep learning for quality prediction of nonlinear dynamic processes with variable attention-based long short-term memory network](https://doi.org/10.1002/cjce.23665)
+* [Deep learning for quality prediction of nonlinear dynamic processes with variable attention-based long short-term memory network](https://doi.org/10.1002/cjce.23665)
 
 ## STA-LSTM
 This file is a pytorch realization of this papaer:
 
-[Deep learning with spatiotemporal attention-based LSTM for industrial soft sensor model development](https://ieeexplore.ieee.org/abstract/document/9062588/)  
-[Dual Attention-Based Encoder–Decoder: A Customized Sequence-to-Sequence Learning for Soft Sensor Development](https://ieeexplore.ieee.org/document/9174767)
+* [Deep learning with spatiotemporal attention-based LSTM for industrial soft sensor model development](https://ieeexplore.ieee.org/abstract/document/9062588/)  
+* [Dual Attention-Based Encoder–Decoder: A Customized Sequence-to-Sequence Learning for Soft Sensor Development](https://ieeexplore.ieee.org/document/9174767)
 
 ## Contact Me  
 Justus  
