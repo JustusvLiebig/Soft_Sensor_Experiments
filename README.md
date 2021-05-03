@@ -36,6 +36,12 @@ This file is a pytorch realization of this papaer:
 
 [Deep learning for quality prediction of nonlinear dynamic processes with variable attention-based long short-term memory network](https://doi.org/10.1002/cjce.23665)
 
+## STA-LSTM
+This file is a pytorch realization of this papaer:
+
+[Deep learning with spatiotemporal attention-based LSTM for industrial soft sensor model development](https://ieeexplore.ieee.org/abstract/document/9062588/)  
+[Dual Attention-Based Encoder–Decoder: A Customized Sequence-to-Sequence Learning for Soft Sensor Development](https://ieeexplore.ieee.org/document/9174767)
+
 ## Contact Me  
 Justus  
 12032042@zju.edu.cn  
