@@ -1,6 +1,6 @@
 #  Spatio-Temporal Attention-Based LSTM
 ## STA-LSTM
-利用了分变量注意力LSTM的输入进行加权从而进行预测
+利用了时-空注意力LSTM的输入进行加权从而进行预测
 ## VALSTM
 变量注意力LSTM
 ## SLSTM
