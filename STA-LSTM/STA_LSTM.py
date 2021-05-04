@@ -241,10 +241,10 @@ class STA_LSTM(nn.Module):
 
         return y_pred
 
-class SLSTMModel(BaseEstimator, RegressorMixin):
+class STALSTMModel(BaseEstimator, RegressorMixin):
 
     def __init__(self, input_dim, sa_hidden, ta_hidden, seq_length, output_dim, n_epoch=200, batch_size=64, lr=0.001, device=torch.device('cuda:0'), seed=1024):
-        super(SLSTMModel, self).__init__()
+        super(STALSTMModel, self).__init__()
 
         # Set seed
         torch.manual_seed(seed)
@@ -368,7 +368,7 @@ y_test = y_temp[TRAIN_SIZE:]
 test_y = y_test
 
 
-mdl = SLSTMModel(input_dim=data.shape[1], sa_hidden=60, ta_hidden=60, seq_length=SEQ_LEN, output_dim=1, n_epoch=100, batch_size=64, lr=0.001, device=torch.device('cuda:0'), seed=1024).fit(X=train_X, y=train_y)
+mdl = STALSTMModel(input_dim=data.shape[1], sa_hidden=60, ta_hidden=60, seq_length=SEQ_LEN, output_dim=1, n_epoch=100, batch_size=64, lr=0.001, device=torch.device('cuda:0'), seed=1024).fit(X=train_X, y=train_y)
 
 y_pred = mdl.predict(test_X, seq_length=SEQ_LEN)
 rmse = math.sqrt(mean_squared_error(test_y, y_pred))
